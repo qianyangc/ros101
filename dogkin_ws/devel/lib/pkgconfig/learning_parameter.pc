@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/dogkin_ws/devel
+
+Name: learning_parameter
+Description: Description of learning_parameter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/dogkin_ws/devel/lib 
+Requires: 

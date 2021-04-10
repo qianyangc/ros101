@@ -1,0 +1,33 @@
+<launch>:
+<launch>
+	...
+</launch>
+
+
+
+<node>:
+<node pkg="package_name" type="file_name" name="node_name" output="output_type"/>
+
+<node pkg="package_name" type="file_name" name="node_name" output="output_type">
+	...
+</node>
+
+
+
+<param>/<rosparam>:
+<param name="param_name" value="param_value" />
+<rosparam file="$(find package_name)/dir_under_package/param.yaml" command="load" />
+
+
+<arg>:
+<param name="param_name" value="$(arg arg-name)" />
+<node pkg="package_name" type="file_name" name="node_name" args="arg_name" />
+<node pkg="package_name" type="file_name" name="node_name" args="$(arg arg-name)" />
+
+
+<remap>:
+<remap from="/turtlebot/cmd_vel" to="/cmd_vel" />
+
+
+<include>:
+<include file="$(find package_name)/dir_under_package/file.launch" />

@@ -1,0 +1,6 @@
+/home/ubuntu/dogkin_ws/install/_setup_util.py
+/home/ubuntu/dogkin_ws/install/env.sh
+/home/ubuntu/dogkin_ws/install/setup.bash
+/home/ubuntu/dogkin_ws/install/setup.sh
+/home/ubuntu/dogkin_ws/install/setup.zsh
+/home/ubuntu/dogkin_ws/install/.rosinstall
