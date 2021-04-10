@@ -8,5 +8,3 @@ Based on GuYueJu-ROS Tutorial. Covered topics:
 4. tf coordinate transformer
 5. Launch file
 6. Visual tools
-
-test edits
